@@ -1,0 +1,53 @@
+<RCC>
+  <qresource prefix="background">
+    <file>테두리.PNG</file>
+    <file>ex plate-2.PNG</file>
+    <file>combined entry.PNG</file>
+    <file>combined entry-2.PNG</file>
+    <file>Thermal entry.png</file>
+    <file>Thermal entry-2.png</file>
+    <file>관군-2.PNG</file>
+    <file>fc sphere.png</file>
+    <file>fc sphere-2.png</file>
+    <file>fc horizontal plate1.png</file>
+    <file>fc horizontal plate1-2.png</file>
+    <file>fc horizontal plate2.png</file>
+    <file>fc horizontal plate2-2.png</file>
+    <file>fc concentric sphere.PNG</file>
+    <file>fc concentric sphere-2.PNG</file>
+    <file>Vertical plate.PNG</file>
+    <file>Vertical plate-2.PNG</file>
+    <file>Vertical cavity.PNG</file>
+    <file>Vertical cavity-2.PNG</file>
+    <file>Vertical cavity-3.PNG</file>
+    <file>Vertical cavity-4.PNG</file>
+    <file>Vertical cavity-5.PNG</file>
+    <file>Tilter cavity-2.PNG</file>
+    <file>Tilter cavity.PNG</file>
+    <file>Horizontal enclosure.PNG</file>
+    <file>Horizontal enclosure-2.PNG</file>
+    <file>Horizontal cylinder.PNG</file>
+    <file>Horizontal cylinder-2.PNG</file>
+    <file>fc concentric cylinder-2.PNG</file>
+    <file>fc concentric cylinder.PNG</file>
+    <file>ex sphere.PNG</file>
+    <file>ex sphere-2.PNG</file>
+    <file>ex cylinder.PNG</file>
+    <file>ex cylinder-2.PNG</file>
+    <file>Dittus boelter-2.PNG</file>
+    <file>Dittus boelter.PNG</file>
+    <file>평판.png</file>
+    <file>관군2.png</file>
+    <file>버튼클릭2.png</file>
+    <file>외부유동실린더.png</file>
+    <file>버튼2.png</file>
+    <file>버튼클릭.png</file>
+    <file>관군.png</file>
+    <file>배경2.png</file>
+    <file>배경.png</file>
+    <file>버튼.png</file>
+    <file>KakaoTalk_20211104_135006545.png</file>
+    <file>검은거.png</file>
+    <file>하얀거.png</file>
+  </qresource>
+</RCC>

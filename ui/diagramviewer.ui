@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>573</width>
+    <height>521</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/background/하얀거.png);</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>10</y>
+     <width>551</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QComboBox" name="comboBox">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/background/하얀거.png);
+font: 10pt &quot;맑은 고딕&quot;;</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>air</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>water</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>R12</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>R22</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>R134a</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>R410a</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comboBox_2">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/background/하얀거.png);
+font: 10pt &quot;맑은 고딕&quot;;</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>P-h diagram</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>T-s diagram</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Psychrometric Chart</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+background-image: url(:/background/버튼2.png);
+font: 10pt &quot;맑은 고딕&quot;;
+}
+QPushButton:hover{
+border-image: url(:/background/버튼클릭2.png);
+}</string>
+      </property>
+      <property name="text">
+       <string>Draw</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+background-image: url(:/background/버튼2.png);
+font: 10pt &quot;맑은 고딕&quot;;
+}
+QPushButton:hover{
+border-image: url(:/background/버튼클릭2.png);
+}</string>
+      </property>
+      <property name="text">
+       <string>Clear</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="4">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../resource/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

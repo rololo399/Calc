@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>996</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>996</width>
+    <height>580</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>996</width>
+    <height>580</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/background/하얀거.png);</string>
+  </property>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>290</y>
+     <width>120</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+background-image: url(:/background/버튼2.png);
+font: 10pt &quot;맑은 고딕&quot;;</string>
+   </property>
+   <property name="text">
+    <string>L [m]</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="P">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>250</y>
+     <width>120</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;맑은 고딕&quot;;
+background-image: url(:/background/하얀거.png);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>220</y>
+     <width>120</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+background-image: url(:/background/버튼2.png);
+font: 10pt &quot;맑은 고딕&quot;;</string>
+   </property>
+   <property name="text">
+    <string>P [kPa]</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="T1">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>250</y>
+     <width>120</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;맑은 고딕&quot;;
+background-image: url(:/background/하얀거.png);</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="T2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>320</y>
+     <width>120</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;맑은 고딕&quot;;
+background-image: url(:/background/하얀거.png);</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="L">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>320</y>
+     <width>120</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;맑은 고딕&quot;;
+background-image: url(:/background/하얀거.png);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="check">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>370</y>
+     <width>61</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+background-image: url(:/background/버튼2.png);
+font: 10pt &quot;맑은 고딕&quot;;
+}
+QPushButton:hover{
+border-image: url(:/background/버튼클릭2.png);
+}</string>
+   </property>
+   <property name="text">
+    <string>=</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>220</y>
+     <width>120</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+background-image: url(:/background/버튼2.png);
+font: 10pt &quot;맑은 고딕&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Ts [℃]</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>290</y>
+     <width>120</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+background-image: url(:/background/버튼2.png);
+font: 10pt &quot;맑은 고딕&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Tinf [℃]</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>290</y>
+     <width>120</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+background-image: url(:/background/버튼2.png);
+font: 10pt &quot;맑은 고딕&quot;;</string>
+   </property>
+   <property name="text">
+    <string>H [m]</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="H">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>320</y>
+     <width>120</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;맑은 고딕&quot;;
+background-image: url(:/background/하얀거.png);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>61</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+background-image: url(:/background/버튼2.png);
+font: 10pt &quot;맑은 고딕&quot;;
+}
+QPushButton:hover{
+border-image: url(:/background/버튼클릭2.png);
+}</string>
+   </property>
+   <property name="text">
+    <string>뒤로</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>420</y>
+     <width>120</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+background-image: url(:/background/버튼2.png);
+font: 10pt &quot;맑은 고딕&quot;;</string>
+   </property>
+   <property name="text">
+    <string>h [W/m2K]</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>450</y>
+     <width>120</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>38</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;맑은 고딕&quot;;
+background-image: url(:/background/하얀거.png);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>420</y>
+     <width>120</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+background-image: url(:/background/버튼2.png);
+font: 10pt &quot;맑은 고딕&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Nu</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>450</y>
+     <width>120</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>38</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;맑은 고딕&quot;;
+background-image: url(:/background/하얀거.png);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>102</y>
+     <width>211</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+background-image: url(:/background/버튼2.png);
+font: 12pt &quot;맑은 고딕&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Fluid</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>996</width>
+     <height>580</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/background/배경2.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>40</y>
+     <width>421</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/background/Vertical cavity.PNG);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>270</y>
+     <width>201</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/background/Vertical cavity-2.PNG);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>270</y>
+     <width>191</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/background/Vertical cavity-3.PNG);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>390</y>
+     <width>191</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/background/Vertical cavity-4.PNG);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>390</y>
+     <width>191</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/background/Vertical cavity-5.PNG);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="fluid_2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>140</y>
+     <width>213</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/background/하얀거.png);
+font: 10pt &quot;맑은 고딕&quot;;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>water  [H2O]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>air</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1-Butene  [C4H8]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Acetone  [C3H6O]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ammonia  [NH3]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Argon  [Ar]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Benzene  [C6H6]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CarbonDioxide  [CO2]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CarbonMonoxide  [CO]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CarbonylSulfide  [COS]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CycloHexane  [C6H12]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CycloPropane  [C3H6]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Cyclopentane  [C5H10]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>D4  [C8H24O4Si4]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>D5  [C10H30O5Si5]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>D6  [C12H36O6Si6]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Deuterium  [D2]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dichloroethane  [C2Cl2H4]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>DiethylEther  [C4H10O]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>DimethylCarbonate  [C3H6O3]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>DimethylEther  [C2H6O]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ethane  [C2H6]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ethanol  [C2H6O]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>EthylBenzene  [C8H10]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ethylene  [C2H4]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>EthyleneOxide  [C2H4O]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Fluorine  [F2]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>HFE143m  [C2F3H3O]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>HeavyWater  [D2O]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Helium  [He]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Hydrogen  [H2]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>HydrogenChloride  [ClH]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>HydrogenSulfide  [H2S]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>IsoButane  [C4H10]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>IsoButene  [C4H8]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Isohexane  [C6H14]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Isopentane  [C5H12]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Krypton  [Kr]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MD2M  [C10H30O3Si4]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MD3M  [C12H36O4Si5]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MD4M  [C14H42O5Si6]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MDM  [C8H24O2Si3]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MM  [C6H18OSi2]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Methane  [CH4]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Methanol  [CH4O]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MethylLinoleate  [C19H34O2]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MethylLinolenate  [C19H32O2]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MethylOleate  [C19H36O2]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MethylPalmitate  [C17H34O2]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MethylStearate  [C19H38O2]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Neon  [Ne]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Neopentane  [C5H12]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nitrogen  [N2]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NitrousOxide  [N2O]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Novec649  [C6F12O]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>OrthoDeuterium</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>OrthoHydrogen</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Oxygen  [O2]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ParaDeuterium</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ParaHydrogen</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Propylene  [C3H6]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Propyne  [C3H4]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R11</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R113</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R114</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R115</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R116</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R12</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R123</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R1233zd(E)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R1234yf</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R1234ze(E)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R1234ze(Z)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R124</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R1243zf</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R125</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R13</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R134a</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R13l1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R14</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R141b</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R142b</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R143a</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R152A</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R161</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R21</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R218</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R22</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R227EA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R23</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R236EA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R236FA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R245ca</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R245fa</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R32</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R365MFC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R40</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R404A</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R407C</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R41</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R410A</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R507A</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RC318</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>SES36</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>SulfurDioxide  [O2S]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>SulfurHexafluoride  [F6S]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Toluene  [C7H8]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Xenon  [Xe]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>cis-2-Butene  [C4H8]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>m-Xylene  [C8H10]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>n-Butane  [C4H10]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>n-Decane  [C10H22]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>n-Dodecane  [C12H26]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>n-Heptane  [C7H16]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>n-Hexane  [C6H14]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>n-Nonane  [C9H20]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>n-Octane  [C8H18]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>n-Pentane  [C5H12]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>n-Propane  [C3H8]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>n-Undecane  [C11H24]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>o-Xylene  [C8H10]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>p-Xylene  [C8H10]</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>trans-2-Butene  [C4H8]</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>100</y>
+     <width>241</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;맑은 고딕&quot;;
+color: rgb(255, 255, 255);
+background-image: url(:/background/버튼2.png);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="text">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'맑은 고딕'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;자유대류&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;-수직공동-&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="buddy">
+    <cstring>pushButton</cstring>
+   </property>
+  </widget>
+  <zorder>label_10</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_2</zorder>
+  <zorder>L</zorder>
+  <zorder>check</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_9</zorder>
+  <zorder>H</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>textBrowser_2</zorder>
+  <zorder>textBrowser</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_11</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_13</zorder>
+  <zorder>label_14</zorder>
+  <zorder>label_15</zorder>
+  <zorder>T2</zorder>
+  <zorder>T1</zorder>
+  <zorder>P</zorder>
+  <zorder>fluid_2</zorder>
+  <zorder>label_16</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_8</zorder>
+ </widget>
+ <resources>
+  <include location="../resource/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
